@@ -11,7 +11,7 @@ export default class CreateOrders1596739960761 implements MigrationInterface {
             type: 'uuid',
             isPrimary: true,
             generationStrategy: 'uuid',
-            default: 'uuid_generate_v4',
+            default: 'uuid_generate_v4()',
           },
           {
             name: 'created_at',

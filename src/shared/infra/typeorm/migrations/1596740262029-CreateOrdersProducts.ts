@@ -12,7 +12,7 @@ export default class CreateOrdersProducts1596740262029
             type: 'uuid',
             isPrimary: true,
             generationStrategy: 'uuid',
-            default: 'uuid_generate_v4',
+            default: 'uuid_generate_v4()',
           },
           {
             name: 'price',
